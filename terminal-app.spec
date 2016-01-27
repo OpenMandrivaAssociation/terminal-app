@@ -23,12 +23,12 @@ The system settings app for Papyros.
 
 %prep
 %setup -q
-%cmake_qt5
 
 %build
-%ninja -C build
+%cmake_qt5
+%make
 
 %install
-%ninja_install -C build
+%makeinstall_std -C build
 
 %files
