@@ -16,7 +16,7 @@ BuildRequires:	pkgconfig(Qt5Qml)
 BuildRequires:	pkgconfig(Qt5Quick)
 BuildRequires:	pkgconfig(Qt5Widgets)
 BuildRequires:	cmake(ECM)
-BuildRequires:	cmake(papyros)
+BuildRequires:	cmake(Papyros)
 
 %description
 The system settings app for Papyros.
