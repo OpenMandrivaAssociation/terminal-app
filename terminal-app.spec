@@ -32,3 +32,7 @@ The system settings app for Papyros.
 %makeinstall_std -C build
 
 %files
+%{_bindir}/papyros-terminal
+%{_datadir}/applications/io.papyros.Terminal.desktop
+%{_datadir}/appdata/io.papyros.Terminal.appdata.xml
+
